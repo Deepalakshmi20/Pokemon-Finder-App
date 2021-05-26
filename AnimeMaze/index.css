@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+/*Main page styling */
+body{
+  background: rgb(39, 39, 39);
+  font-family: 'open-sans';
+  font-size:15px;
+  text-align:left;
+  
+}
+.header{
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.layout-wrapper{
+  width: 100%;
+  padding-top: 30px;
+}
+.left-container{
+      width: 50%;
+      height: 500px ;
+      float: left; 
+      background: rgb(197, 197, 197);
+      display: inline;
+      border-radius: 50px;
+      box-sizing: border-box;
+      width: 500px;
+      position:absolute; 
+      top: 225px;
+      left:80px;
+      padding: 0 10px;
+}
+
+p {
+  display: inline;
+  margin: 0 auto;
+  font-size:25px;
+  color: #fff;
+  position: relative;
+  left: 40px;
+  top: -45px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+  
+}
+.right-container{
+  margin-left: 55%; 
+  height: 500px; 
+  background: rgba(255, 218, 241, 0.925);
+  border-radius: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: 500px;
+}
+
+.select-option select{
+  background-color: rgb(214, 214, 214);
+  border: 0; 
+  width: 200px;
+  height: 30px;
+  margin: 15px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  position: absolute;
+  left: 215px;
+  top: -60px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: left;
+  float:left;
+  width:25%;
+  justify-content: space-around;
+  display: -ms-inline-flexbox;
+  
+}
+.container img{
+  height: 150px;
+  width: 100px;
+  padding: 0 17px 17px;
+  border-radius: 25px;
+}
+img:hover{
+  opacity: .5;
+  transition: 0.9s;
+}
+
+
+
+/*DetailPage styling*/
+.left-section{
+  width: 300px;
+  height: 400px;
+}
+.left-section img{
+  height: 550px;
+  width: 280px;
+  padding: 30px 30px 30px 30px;
+}
+.right-section{
+  width: 800px;
+  height: 700px;
+}
+
+h3{
+  margin: 0 auto;
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  left: 370px;
+  top: 20px;
+  font-family: 'Rancho', cursive;
+
+ 
+}
+.synopsis{
+  font-size: 35px;
+  color: #fff;
+  position: relative;
+  left: 370px;
+  top: -330px;
+  font-family: 'Rancho', cursive;
+  
+  
+ 
+}
+.anime{
+  background-color: rgb(243, 174, 174);
+  width: 800px;
+  position: relative;
+  height: 280px;
+ left: 370px;
+ top: -300px;
+ padding: 30px 30px 30px 30px;
+
+}
+.anime-details1{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Rancho', cursive;
+
+}
+.anime-details2{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Rancho', cursive;
+}
+.anime-details3{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Rancho', cursive;
+}
+.start-date{
+  margin-top: 120px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Rancho', cursive;
+  float: left;
+  
+}
+.end-date{
+  margin-top: 120px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Rancho', cursive;
+  float: right;
+  
+}
+
+.images-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 455px;
+}
